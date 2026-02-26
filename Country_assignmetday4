@@ -1,0 +1,40 @@
+import java.util.*;
+
+public class CountryMap {
+    public static void main(String[] args) {
+
+        HashMap<Integer, String> map = new HashMap<>();
+
+        map.put(1, "India");
+        map.put(2, "USA");
+        map.put(3, "Japan");
+        map.put(4, "China");
+        map.put(5, "Nepal");
+        map.put(6, "Bhutan");
+        map.put(7, "Canada");
+        map.put(8, "Brazil");
+        map.put(9, "Russia");
+        map.put(10, "France");
+
+        System.out.println(map.keySet());
+        System.out.println(map.values());
+        System.out.println(map.containsValue("India"));
+        System.out.println(map.containsKey(45));
+
+        map.remove(3);
+        System.out.println(map);
+
+        HashMap<Integer, String> map2 = new HashMap<>();
+        map2.put(11, "MH");
+        map2.put(12, "KA");
+        map2.put(13, "DL");
+
+        map.putAll(map2);
+
+        map.remove(5);
+        System.out.println(map.isEmpty());
+
+        map.clear();
+        System.out.println(map);
+    }
+}
