@@ -1,0 +1,40 @@
+package Tech_6;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+public class student_roll {
+    public static void main(String[] args) {
+        File file = new File("/home/labuser/Desktop/Folder/students.text");
+        if (!file.exists()) {
+            System.out.println("students.text file not found");
+            return;
+        }
+        try {
+            FileReader fr = new FileReader(file);
+            StringBuilder data = new StringBuilder();
+            int ch;
+            while ((ch = fr.read()) != -1) {
+                data.append((char) ch);
+            }
+            fr.close();
+            String[] lines = data.toString().split("\n");
+            for (int i = 1; i < lines.length; i++) {  
+                String line = lines[i].trim();
+                if (!line.isEmpty()) {
+                    String[] parts = line.split(",");
+                    int rollNo = Integer.parseInt(parts[0].trim());
+                    String name = parts[1].trim();
+                    int marks = Integer.parseInt(parts[2].trim());
+                    System.out.println("Roll No: " + rollNo);
+                    System.out.println("Name   : " + name);
+                    System.out.println("Marks  : " + marks);
+                    System.out.println("---------------------");
+                }
+            }
+        } catch (IOException e) {
+            System.out.println("Error reading file: " + e.getMessage());
+        }
+    }
+} /// here what we have to do is first create a flder then create a file in the folder then pastebnthese conetnts in iut copy the file path paste it in your code then the code will run
+ 
+ 
