@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resume</title>
+</head>
+<body>
+
+    <!-- Picture -->
+    <div>
+        <h3>Pic</h3>
+       <img src="beautiful-blue-spring-aquilegia-flower-also-known-royalty-free-image-1722883545 (1).avif" alt="" width="50%" height="50%">
+    </div>
+
+    <!-- Header -->
+    <h1>RESUME</h1>
+    <p>Name</p>
+    <p>Email</p>
+
+    <!-- Objective -->
+    <h2>Objective</h2>
+    <p>
+       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus nostrum, laboriosam suscipit error, illum ullam dolorem hic necessitatibus cumque accusamus neque est. Cupiditate expedita dolorum tenetur quam quidem exercitationem quisquam quae ducimus unde, ullam, quo nemo dignissimos aut id velit et culpa accusantium hic earum reprehenderit. Dolor, magni necessitatibus perferendis quis unde similique libero. Inventore corporis incidunt officiis aliquid expedita dicta deleniti, odit doloremque maiores nihil accusamus sit aut molestiae animi? Dolorum velit quisquam excepturi officia voluptatibus repudiandae, culpa deleniti sequi eius. Ullam exercitationem, aspernatur quo mollitia vitae sint reiciendis hic. Nisi dolores ipsum praesentium inventore tenetur necessitatibus ex voluptatum.
+    </p>
+
+    <!-- Marks -->
+    <h2>Marks</h2>
+    <ul>
+        <li>10th</li>
+        <li>12th</li>
+    </ul>
+
+    <!-- Technologies -->
+    <h2>Technologies</h2>
+    <ul>
+        <li>Technology 1</li>
+        <li>Technology 2</li>
+    </ul>
+
+    <!-- About You -->
+    <h2>About You</h2>
+    <p>
+        My name is Sani Kumar Dusad, and I am from West Bengal, currently staying in Kolkata. I completed my engineering from JIS College of Engineering, where I built a strong foundation in technology and software development. Over the years, I have developed solid skills in Java Full Stack Development, and I am currently working in a company where I actively use my technical knowledge. I am proficient in HTML, CSS, JavaScript, React.js, Spring, Spring Boot, SQL, and AWS, and I enjoy exploring new tools and technologies that help me grow professionally. Throughout my journey, I have worked on multiple projects that strengthened both my backend and frontend abilities. Apart from my technical background, I believe in maintaining a balanced lifestyle. My hobbies include riding bikes and travelling, as they give me a sense of freedom and help me explore new places and experiences. Additionally, I was a wrestler during my earlier years, which taught me discipline, resilience, and the value of consistent hard work. These qualities continue to help me in both my personal and professional life. Overall, I am passionate about learning, improving, and contributing positively wherever I work.
+    </p>
+
+    <!-- Projects -->
+    <h2>Projects</h2>
+
+    <div>
+        <h3>1st Project</h3>
+        <p>Project details...</p>
+    </div>
+
+    <div>
+        <h3>2nd Project</h3>
+        <p>Project details...</p>
+    </div>
+
+    <!-- Personal Details -->
+    <h2>Personal Details</h2>
+    <ul>
+        <li>DOB</li>
+        <li>City</li>
+    </ul>
+
+</body>
+</html>
