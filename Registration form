@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register Form</title>
+</head>
+<body>
+
+    <h1>Register</h1>
+
+    <form>
+
+        <label>Full Name*</label><br>
+        <input type="text" placeholder="First Name">
+        <input type="text" placeholder="Last Name">
+
+        <br><br>
+
+        <div>
+        <input type="file" name="choose file">
+        </div>
+        <br><br>
+
+        <label>Address</label><br>
+        <textarea rows="4" cols="40"></textarea>
+        <br><br>
+
+        <label>Email address*</label><br>
+        <input type="email">
+        <br><br>
+
+        <label>Phone*</label><br>
+        <input type="text">
+        <br><br>
+
+        <label>Gender*</label><br>
+        <input type="radio" name="g"> Male
+        <input type="radio" name="g"> Female
+        <br><br>
+
+        <label>Hobbies</label><br>
+        <input type="checkbox"> Cricket<br>
+        <input type="checkbox"> Movies<br>
+        <input type="checkbox"> Hockey<br>
+        <br>
+
+        <label>Languages</label><br>
+        <input type="text">
+        <br><br>
+
+        <label>Skills</label><br>
+        <select>
+            <option>Select Skills</option>
+            <option>Java</option>
+            <option>HTML</option>
+            <option>SQL</option>
+        </select>
+        <br><br>
+
+        <label>Country*</label><br>
+        <select>
+            <option>Select Country</option>
+            <option>India</option>
+            <option>Nepal</option>
+        </select>
+        <br><br>
+
+        <label>Select Country :</label><br>
+        <select>
+            <option>Select</option>
+        </select>
+        <br><br>
+
+        <label>Date Of Birth</label><br>
+        <select>
+            <option>Year</option>
+        </select>
+
+        <select>
+            <option>Month</option>
+        </select>
+
+        <select>
+            <option>Day</option>
+        </select>
+        <br><br>
+
+        <label>Password</label><br>
+        <input type="password">
+        <br><br>
+
+        <label>Confirm Password</label><br>
+        <input type="password">
+        <br><br>
+
+        <label>Photo</label><br>
+        <input type="file">
+        <br><br>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+</body>
+</html>
