@@ -1,0 +1,6 @@
+com/example/flightmanagement/controller/FlightController.class
+com/example/flightmanagement/repository/FlightRepository.class
+com/example/flightmanagement/dto/FlightDTO.class
+com/example/flightmanagement/model/Flight.class
+com/example/flightmanagement/FlightManagementApplication.class
+com/example/flightmanagement/service/FlightService.class
